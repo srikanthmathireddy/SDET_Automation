@@ -8,7 +8,7 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "src\\test\\resources\\features\\Web.feature",
+        features = "src\\test\\resources\\features\\FrontEnd_Automation_Scenario_1.feature",
         glue = "StepDefinitions",
         plugin =
                 {

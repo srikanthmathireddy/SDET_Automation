@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ErrorResponse",
+  "type": "object",
+  "properties": {
+    "message": {
+      "type": "string",
+      "description": "Error message indicating what went wrong"
+    },
+    "status": {
+      "type": "integer",
+      "description": "HTTP status code representing the error"
+    }
+  },
+  "required": ["message", "status"],
+  "additionalProperties": false
+}
